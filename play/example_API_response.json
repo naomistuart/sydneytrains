@@ -1,0 +1,4353 @@
+header {
+  gtfs_realtime_version: "1.0"
+  incrementality: FULL_DATASET
+  timestamp: 1556516852
+}
+entity {
+  id: "1"
+  vehicle {
+    trip {
+      trip_id: "1--L.1580.104.4.K.8.56603489"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_2d"
+    }
+    position {
+      latitude: -33.864204
+      longitude: 151.0463
+    }
+    timestamp: 1556516566
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Lidcombe.Lidcombe 3 Loc"
+    vehicle {
+      id: "1071.8481.4429.3593.7270.9312.1656.3607"
+      label: "14:54 Leppington Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "2"
+  vehicle {
+    trip {
+      trip_id: "10-M.1580.104.4.B.8.56601107"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_1c"
+    }
+    position {
+      latitude: -33.969307
+      longitude: 150.85864
+    }
+    timestamp: 1556516798
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.Edmondson Park 2 Loc"
+    vehicle {
+      id: "2862.2886.6214.5744.4221.8885.7430.6738"
+      label: "14:02 Central Station to Leppington Station "
+    }
+  }
+}
+entity {
+  id: "3"
+  vehicle {
+    trip {
+      trip_id: "100M.1580.104.12.A.8.56602288"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_1a"
+    }
+    position {
+      latitude: -33.876827
+      longitude: 151.20743
+    }
+    timestamp: 1556516846
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SH0.47 Loc"
+    vehicle {
+      id: "4452.7271.9368.8219.1073.7202.1295.5277"
+      label: "15:35 Central Station to Lindfield Station "
+    }
+  }
+}
+entity {
+  id: "4"
+  vehicle {
+    trip {
+      trip_id: "101G.1580.104.60.T.8.56603731"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.69264
+      longitude: 151.10497
+    }
+    timestamp: 1556503421
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.HY52 Loc"
+    vehicle {
+      id: "9589.8277.4248.7373.5401.9650.9674.2951"
+      label: "16:59 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "5"
+  vehicle {
+    trip {
+      trip_id: "102M.1580.104.12.T.8.56605233"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_1a"
+    }
+    position {
+      latitude: -33.85889
+      longitude: 151.08818
+    }
+    timestamp: 1556516821
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.Nth Strathfield 3 Loc"
+    vehicle {
+      id: "6209.2424.8681.5159.8872.4020.2435.4971"
+      label: "15:31 Central Station to Hornsby Station "
+    }
+  }
+}
+entity {
+  id: "6"
+  vehicle {
+    trip {
+      trip_id: "103L.1580.104.12.T.8.56601646"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_2a"
+    }
+    position {
+      latitude: -33.788868
+      longitude: 151.0824
+    }
+    timestamp: 1556516781
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.EW20 Loc"
+    vehicle {
+      id: "5159.9765.8724.6598.6003.5812.9469.5244"
+      label: "15:29 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "7"
+  vehicle {
+    trip {
+      trip_id: "104K.1580.104.12.T.8.56602422"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_1a"
+    }
+    position {
+      latitude: -33.782055
+      longitude: 151.08359
+    }
+    timestamp: 1556516847
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.EG23 Loc"
+    vehicle {
+      id: "2593.9501.8167.6239.8757.9246.6150.9373"
+      label: "15:16 Central Station to Hornsby Station "
+    }
+  }
+}
+entity {
+  id: "8"
+  vehicle {
+    trip {
+      trip_id: "107E.1580.104.4.T.8.56600814"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_1a"
+    }
+    position {
+      latitude: -33.74928
+      longitude: 150.69421
+    }
+    timestamp: 1556495804
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.PH11/12/28 Exit Loc"
+    vehicle {
+      id: "1824.5063.8922.8442.8929.5859.2802.2196"
+      label: "08:52 Central Station to Blacktown Station "
+    }
+  }
+}
+entity {
+  id: "9"
+  vehicle {
+    trip {
+      trip_id: "107F.1580.104.4.T.8.56602590"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_DEF"
+    }
+    position {
+      latitude: -33.86442
+      longitude: 151.05078
+    }
+    timestamp: 1556516846
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Lidcombe.ST390M Loc"
+    vehicle {
+      id: "8333.1294.3985.2487.3316.1570.6281.2733"
+    }
+  }
+}
+entity {
+  id: "10"
+  vehicle {
+    trip {
+      trip_id: "109K.1580.104.12.T.8.56605232"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2c"
+    }
+    position {
+      latitude: -33.772243
+      longitude: 150.84177
+    }
+    timestamp: 1556516787
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.S25.6 Loc"
+    vehicle {
+      id: "9528.1633.6515.2657.7870.3280.5164.9331"
+      label: "15:32 Penrith Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "11"
+  vehicle {
+    trip {
+      trip_id: "11-L.1580.104.4.B.8.56600868"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_2d"
+    }
+    position {
+      latitude: -33.97482
+      longitude: 150.88144
+    }
+    timestamp: 1556516741
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.GL43.2 Loc"
+    vehicle {
+      id: "5882.6742.7559.5587.2654.2592.6906.3280"
+      label: "15:39 Leppington Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "12"
+  vehicle {
+    trip {
+      trip_id: "110C.1580.104.124.T.8.56604285"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.69264
+      longitude: 151.10497
+    }
+    timestamp: 1556495992
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.HY54 Loc"
+    vehicle {
+      id: "4970.7520.6804.8189.4428.4875.6207.2281"
+      label: "17:48 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "13"
+  vehicle {
+    trip {
+      trip_id: "111L.1580.104.12.T.8.56601740"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_1a"
+    }
+    position {
+      latitude: -33.744965
+      longitude: 151.14238
+    }
+    timestamp: 1556516776
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.Pymble 2 Loc"
+    vehicle {
+      id: "2040.1455.1150.1351.7878.7298.7633.5279"
+      label: "15:09 Central Station to Berowra Station "
+    }
+  }
+}
+entity {
+  id: "14"
+  vehicle {
+    trip {
+      trip_id: "112M.1580.104.12.T.8.56603069"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_1a"
+    }
+    position {
+      latitude: -33.80318
+      longitude: 151.18105
+    }
+    timestamp: 1556516818
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.SH6.91 Loc"
+    vehicle {
+      id: "5729.9253.3528.5243.1869.4821.8804.4196"
+      label: "15:24 Central Station to Hornsby Station "
+    }
+  }
+}
+entity {
+  id: "15"
+  vehicle {
+    trip {
+      trip_id: "113E.1580.104.4.T.8.56604399"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.77307
+      longitude: 151.16751
+    }
+    timestamp: 1556516804
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.LD8 Loc"
+    vehicle {
+      id: "5577.8283.2603.9161.1173.5050.7316.1917"
+      label: "15:23 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "16"
+  vehicle {
+    trip {
+      trip_id: "114G.1580.104.124.T.8.56604138"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2c"
+    }
+    position {
+      latitude: -33.768883
+      longitude: 150.90915
+    }
+    timestamp: 1556516802
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "BLACKTOWN.BN_124C"
+    vehicle {
+      id: "8287.5561.3224.7521.4806.6122.6501.7074"
+      label: "15:46 Blacktown Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "17"
+  vehicle {
+    trip {
+      trip_id: "115R.1580.104.12.T.8.56605137"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_1b"
+    }
+    position {
+      latitude: -33.62361
+      longitude: 151.15263
+    }
+    timestamp: 1556516603
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.Berowra 2 Loc"
+    vehicle {
+      id: "4000.6943.3212.2438.5864.9060.2930.8597"
+      label: "15:56 Berowra Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "18"
+  vehicle {
+    trip {
+      trip_id: "12-K.1580.104.4.B.8.56603428"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_1a"
+    }
+    position {
+      latitude: -33.888557
+      longitude: 151.20193
+    }
+    timestamp: 1556516850
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SY441 Loc"
+    vehicle {
+      id: "9910.6802.1444.4547.5661.1679.2452.3696"
+      label: "15:24 Central Station to Birrong Station "
+    }
+  }
+}
+entity {
+  id: "19"
+  vehicle {
+    trip {
+      trip_id: "120G.1580.104.124.A.8.56600797"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.69264
+      longitude: 151.10497
+    }
+    timestamp: 1556505774
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.HY66 Loc"
+    vehicle {
+      id: "1063.7477.7571.1000.1635.6844.7264.8398"
+      label: "16:29 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "20"
+  vehicle {
+    trip {
+      trip_id: "121M.1580.104.4.A.8.56603459"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_1a"
+    }
+    position {
+      latitude: -33.75079
+      longitude: 150.69946
+    }
+    timestamp: 1556516705
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.PH77/78 Loc"
+    vehicle {
+      id: "2173.7448.8967.1475.2013.7131.6289.8077"
+      label: "14:41 Central Station to Penrith Station "
+    }
+  }
+}
+entity {
+  id: "21"
+  vehicle {
+    trip {
+      trip_id: "121N.1580.104.4.A.8.56600904"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2c"
+    }
+    position {
+      latitude: -33.75003
+      longitude: 150.69595
+    }
+    timestamp: 1556516721
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.Penrith 1 Loc"
+    vehicle {
+      id: "2907.1794.6299.2861.6944.7783.5045.1050"
+      label: "16:02 Penrith Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "22"
+  vehicle {
+    trip {
+      trip_id: "122F.1580.104.4.A.8.56602166"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_1b"
+    }
+    position {
+      latitude: -33.69264
+      longitude: 151.10497
+    }
+    timestamp: 1556495076
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.HBY Car Sdgs Exit Loc"
+    vehicle {
+      id: "5495.5916.9383.2038.5805.8884.9144.4522"
+      label: "08:50 Central Station to Epping Station "
+    }
+  }
+}
+entity {
+  id: "23"
+  vehicle {
+    trip {
+      trip_id: "122G.1580.104.4.A.8.56602168"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.840218
+      longitude: 151.20247
+    }
+    timestamp: 1556516824
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthSydney.NS310/339 Loc"
+    vehicle {
+      id: "2630.4189.5229.6305.2011.3559.4623.5442"
+      label: "15:08 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "24"
+  vehicle {
+    trip {
+      trip_id: "123H.1580.104.124.A.8.56602014"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_DEF"
+    }
+    position {
+      latitude: -33.831295
+      longitude: 151.00934
+    }
+    timestamp: 1556516414
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.GE263 Loc"
+    vehicle {
+      id: "9302.4047.2881.9291.1107.6434.6523.4792"
+    }
+  }
+}
+entity {
+  id: "25"
+  vehicle {
+    trip {
+      trip_id: "123J.1580.104.124.A.8.56602013"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_REV"
+    }
+    position {
+      latitude: -33.830635
+      longitude: 151.00835
+    }
+    timestamp: 1556516460
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.GE270 Loc"
+    vehicle {
+      id: "8115.9862.2078.3078.4430.2079.6162.1900"
+      label: "15:58 Central Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "26"
+  vehicle {
+    trip {
+      trip_id: "124L.1580.104.12.A.8.56603430"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_2a"
+    }
+    position {
+      latitude: -33.85889
+      longitude: 151.08818
+    }
+    timestamp: 1556516807
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.Nth Strathfield 1 Loc"
+    vehicle {
+      id: "3919.8888.2801.4712.2453.5799.6547.3075"
+      label: "15:14 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "27"
+  vehicle {
+    trip {
+      trip_id: "125E.1580.104.92.A.8.56601437"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.703197
+      longitude: 151.09827
+    }
+    timestamp: 1556516834
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.Hornsby 1 Loc"
+    vehicle {
+      id: "9694.5764.3638.8199.2714.9323.8034.1877"
+      label: "15:48 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "28"
+  vehicle {
+    trip {
+      trip_id: "125Z.1629.101.2.A.8.56410956"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_DEF"
+    }
+    position {
+      latitude: -33.74928
+      longitude: 150.69421
+    }
+    timestamp: 1556465137
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.PH94 Exit Loc"
+    vehicle {
+      id: "5287.2047.1479.6382.3234.3088.6932.7273"
+    }
+  }
+}
+entity {
+  id: "29"
+  vehicle {
+    trip {
+      trip_id: "126M.1580.104.12.A.8.56602743"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_1a"
+    }
+    position {
+      latitude: -33.891724
+      longitude: 151.19896
+    }
+    timestamp: 1556516842
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Redfern 4 Loc"
+    vehicle {
+      id: "2519.1633.1197.3038.2765.3765.9053.4628"
+      label: "15:46 Central Station to Hornsby Station "
+    }
+  }
+}
+entity {
+  id: "30"
+  vehicle {
+    trip {
+      trip_id: "127L.1580.104.12.A.8.56600878"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2c"
+    }
+    position {
+      latitude: -33.864944
+      longitude: 151.07483
+    }
+    timestamp: 1556516827
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.ST274 Entry Loc"
+    vehicle {
+      id: "1502.9125.2357.7432.3265.1406.8554.4706"
+      label: "15:02 Penrith Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "31"
+  vehicle {
+    trip {
+      trip_id: "128K.1580.104.12.A.8.56602057"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_1a"
+    }
+    position {
+      latitude: -33.781467
+      longitude: 150.94841
+    }
+    timestamp: 1556516822
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.M19.1 Loc"
+    vehicle {
+      id: "1396.4416.1116.9176.7418.4763.1216.5912"
+      label: "15:11 Central Station to Penrith Station "
+    }
+  }
+}
+entity {
+  id: "32"
+  vehicle {
+    trip {
+      trip_id: "129K.1580.104.12.A.8.56604519"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_1a"
+    }
+    position {
+      latitude: -33.858192
+      longitude: 151.03949
+    }
+    timestamp: 1556516836
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Lidcombe.AN3 Loc"
+    vehicle {
+      id: "5798.2744.5045.7973.1170.1366.7346.4342"
+      label: "15:26 Central Station to Emu Plains Station "
+    }
+  }
+}
+entity {
+  id: "33"
+  vehicle {
+    trip {
+      trip_id: "13-N.1580.104.60.B.8.56604175"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_2f"
+    }
+    position {
+      latitude: -33.92177
+      longitude: 150.93109
+    }
+    timestamp: 1556516848
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Liverpool.LL204/LL207 Loc"
+    vehicle {
+      id: "7661.9631.5334.8086.8807.8920.9899.7659"
+      label: "15:09 Leppington Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "34"
+  vehicle {
+    trip {
+      trip_id: "130L.1580.104.4.A.8.56604696"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2d"
+    }
+    position {
+      latitude: -33.87164
+      longitude: 151.0942
+    }
+    timestamp: 1556516837
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.Strathfield 4 Loc"
+    vehicle {
+      id: "6471.3587.8911.7952.2662.5181.6014.1359"
+      label: "14:41 Richmond Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "35"
+  vehicle {
+    trip {
+      trip_id: "133K.1580.104.12.A.8.56605194"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_1a"
+    }
+    position {
+      latitude: -33.768517
+      longitude: 150.81322
+    }
+    timestamp: 1556516849
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.M27.3 Loc"
+    vehicle {
+      id: "8707.3349.1608.4223.1258.3780.9058.6495"
+      label: "14:56 Central Station to Emu Plains Station "
+    }
+  }
+}
+entity {
+  id: "36"
+  vehicle {
+    trip {
+      trip_id: "134G.1580.104.4.A.8.56602690"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2d"
+    }
+    position {
+      latitude: -33.815918
+      longitude: 151.00005
+    }
+    timestamp: 1556516820
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.WS14.8 Loc"
+    vehicle {
+      id: "8913.1802.2294.1667.4182.9914.2202.9153"
+      label: "15:22 Schofields Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "37"
+  vehicle {
+    trip {
+      trip_id: "135H.1580.104.12.A.8.56601366"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_1a"
+    }
+    position {
+      latitude: -33.865753
+      longitude: 151.2056
+    }
+    timestamp: 1556516798
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Wynyard 4 Loc"
+    vehicle {
+      id: "9474.2187.8647.1631.8126.1131.2237.7423"
+      label: "15:32 Central Station to Hornsby Station "
+    }
+  }
+}
+entity {
+  id: "38"
+  vehicle {
+    trip {
+      trip_id: "136L.1580.104.60.A.8.56603329"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_2a"
+    }
+    position {
+      latitude: -33.83575
+      longitude: 151.08604
+    }
+    timestamp: 1556516795
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.RS8/15 Loc"
+    vehicle {
+      id: "1009.2897.1491.5050.1650.8656.5251.1829"
+      label: "15:46 Rhodes Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "39"
+  vehicle {
+    trip {
+      trip_id: "137H.1580.104.124.A.8.56602118"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_1a"
+    }
+    position {
+      latitude: -33.883743
+      longitude: 151.2065
+    }
+    timestamp: 1556494177
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Sydney 12 Loc"
+    vehicle {
+      id: "2595.3707.6350.3443.5248.7086.4209.3265"
+      label: "16:08 Central Station to Hornsby Station "
+    }
+  }
+}
+entity {
+  id: "40"
+  vehicle {
+    trip {
+      trip_id: "138N.1580.104.12.A.8.56601841"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_1b"
+    }
+    position {
+      latitude: -33.84351
+      longitude: 151.21078
+    }
+    timestamp: 1556516842
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthSydney.SH2.96/NS329 Loc"
+    vehicle {
+      id: "9948.5368.7552.1073.7080.6325.9849.8990"
+      label: "14:56 Berowra Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "41"
+  vehicle {
+    trip {
+      trip_id: "139M.1580.104.12.A.8.56603016"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.75583
+      longitude: 151.15422
+    }
+    timestamp: 1556516360
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.Gordon 2 Loc"
+    vehicle {
+      id: "5626.5104.1193.4014.1173.9743.8707.2962"
+      label: "15:48 Gordon Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "42"
+  vehicle {
+    trip {
+      trip_id: "14-L.1580.104.4.B.8.56601121"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_1c"
+    }
+    position {
+      latitude: -33.8834
+      longitude: 151.02367
+    }
+    timestamp: 1556516755
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sefton.Regents Park 1 Loc"
+    vehicle {
+      id: "7567.7490.3209.5691.6806.9575.3521.1108"
+      label: "15:43 Regent\'s Park Station to Lidcombe Station "
+    }
+  }
+}
+entity {
+  id: "43"
+  vehicle {
+    trip {
+      trip_id: "140N.1580.104.100.A.8.56604908"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_1a"
+    }
+    position {
+      latitude: -33.758198
+      longitude: 151.15613
+    }
+    timestamp: 1556516815
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.GN5 Loc"
+    vehicle {
+      id: "4925.7973.8505.2202.9174.3269.9552.1952"
+      label: "15:17 Central Station to Hornsby Station "
+    }
+  }
+}
+entity {
+  id: "44"
+  vehicle {
+    trip {
+      trip_id: "141K.1580.104.4.A.8.56601856"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_DEF"
+    }
+    position {
+      latitude: -33.864536
+      longitude: 151.07753
+    }
+    timestamp: 1556516674
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.ST264 Loc"
+    vehicle {
+      id: "3311.4407.5922.8111.5515.2492.8186.3824"
+    }
+  }
+}
+entity {
+  id: "45"
+  vehicle {
+    trip {
+      trip_id: "141L.1580.104.4.A.8.56603486"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_DEF"
+    }
+    position {
+      latitude: -33.867336
+      longitude: 151.08781
+    }
+    timestamp: 1556516773
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.ST157 Loc"
+    vehicle {
+      id: "3083.3325.7118.1486.8958.7399.8660.4787"
+    }
+  }
+}
+entity {
+  id: "46"
+  vehicle {
+    trip {
+      trip_id: "143N.1580.104.12.A.8.56602347"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.744972
+      longitude: 151.14238
+    }
+    timestamp: 1556516811
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.Pymble 1 Loc"
+    vehicle {
+      id: "6853.9501.4581.1179.2441.2114.8440.7884"
+      label: "15:34 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "47"
+  vehicle {
+    trip {
+      trip_id: "144N.1580.104.12.A.8.56601790"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_1b"
+    }
+    position {
+      latitude: -33.728363
+      longitude: 151.12488
+    }
+    timestamp: 1556516845
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.SH13.26 Loc"
+    vehicle {
+      id: "6808.6551.2345.1113.3778.7798.9318.6934"
+      label: "15:26 Berowra Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "48"
+  vehicle {
+    trip {
+      trip_id: "145L.1580.104.12.A.8.56601443"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_1b"
+    }
+    position {
+      latitude: -33.61386
+      longitude: 150.81114
+    }
+    timestamp: 1556516665
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "BLACKTOWN.CN_CDT2"
+    vehicle {
+      id: "6296.9762.2680.7354.5021.6201.2763.1563"
+      label: "14:35 Central Station to Richmond Station "
+    }
+  }
+}
+entity {
+  id: "49"
+  vehicle {
+    trip {
+      trip_id: "146L.1580.104.12.A.8.56601922"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_1b"
+    }
+    position {
+      latitude: -33.773872
+      longitude: 150.91992
+    }
+    timestamp: 1556516781
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "BLACKTOWN.BN_5G"
+    vehicle {
+      id: "8131.7050.3209.4355.6552.5760.7493.2949"
+      label: "15:05 Central Station to Richmond Station "
+    }
+  }
+}
+entity {
+  id: "50"
+  vehicle {
+    trip {
+      trip_id: "147P.1580.104.4.A.8.56602916"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2c"
+    }
+    position {
+      latitude: -33.750023
+      longitude: 150.69595
+    }
+    timestamp: 1556516772
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.Penrith 2 Loc"
+    vehicle {
+      id: "8658.5727.8755.3646.7765.1353.9093.8956"
+      label: "15:44 Emu Plains Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "51"
+  vehicle {
+    trip {
+      trip_id: "148R.1580.104.12.A.8.56604896"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_1a"
+    }
+    position {
+      latitude: -33.6996
+      longitude: 151.09943
+    }
+    timestamp: 1556516807
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.HY63 Loc"
+    vehicle {
+      id: "8786.2602.1108.6550.3315.7030.8301.3139"
+      label: "14:55 Central Station to Hornsby Station "
+    }
+  }
+}
+entity {
+  id: "52"
+  vehicle {
+    trip {
+      trip_id: "148S.1580.104.12.A.8.56601800"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.69927
+      longitude: 151.09952
+    }
+    timestamp: 1556516838
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.HY76 Loc"
+    vehicle {
+      id: "7415.1416.7001.3043.2140.3045.9586.2268"
+      label: "16:04 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "53"
+  vehicle {
+    trip {
+      trip_id: "149N.1580.104.4.A.8.56603987"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_1b"
+    }
+    position {
+      latitude: -33.87164
+      longitude: 151.0942
+    }
+    timestamp: 1556516815
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.Strathfield 6 Loc"
+    vehicle {
+      id: "7983.2332.6043.4461.5104.6264.2640.7469"
+      label: "15:35 Central Station to Richmond Station "
+    }
+  }
+}
+entity {
+  id: "54"
+  vehicle {
+    trip {
+      trip_id: "15-H.1580.104.4.B.8.56602595"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_1a"
+    }
+    position {
+      latitude: -33.93154
+      longitude: 151.12512
+    }
+    timestamp: 1556516778
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "EastHills.Bardwell Park 2 Loc"
+    vehicle {
+      id: "4591.1623.7135.9017.5957.8893.7351.1803"
+      label: "15:06 Central Station to Revesby Station "
+    }
+  }
+}
+entity {
+  id: "55"
+  vehicle {
+    trip {
+      trip_id: "150J.1580.104.60.A.8.56601464"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_1a"
+    }
+    position {
+      latitude: -33.828762
+      longitude: 151.19533
+    }
+    timestamp: 1556516819
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.SH4.81 Loc"
+    vehicle {
+      id: "5795.9753.6013.9791.1256.1368.5663.4583"
+      label: "15:29 Central Station to Lindfield Station "
+    }
+  }
+}
+entity {
+  id: "56"
+  vehicle {
+    trip {
+      trip_id: "151J.1580.104.4.A.8.56604437"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2c"
+    }
+    position {
+      latitude: -33.875816
+      longitude: 151.09929
+    }
+    timestamp: 1556516798
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Ashfield.S6.80 Entry Loc"
+    vehicle {
+      id: "3508.3945.6567.3920.5007.5750.2729.8794"
+      label: "15:18 Blacktown Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "57"
+  vehicle {
+    trip {
+      trip_id: "152G.1580.104.100.A.8.56603962"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_1b"
+    }
+    position {
+      latitude: -33.82317
+      longitude: 151.00774
+    }
+    timestamp: 1556516823
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.Harris Park 2 Loc"
+    vehicle {
+      id: "2757.8649.3819.5226.1099.4030.8284.1195"
+      label: "15:20 Central Station to Schofields Station "
+    }
+  }
+}
+entity {
+  id: "58"
+  vehicle {
+    trip {
+      trip_id: "153K.1580.104.12.A.8.56602233"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_1a"
+    }
+    position {
+      latitude: -33.78435
+      longitude: 151.17754
+    }
+    timestamp: 1556516833
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.Roseville 2 Loc"
+    vehicle {
+      id: "3664.4385.3362.2666.3656.3264.4587.5830"
+      label: "15:20 Central Station to Gordon Station "
+    }
+  }
+}
+entity {
+  id: "59"
+  vehicle {
+    trip {
+      trip_id: "154K.1580.104.4.A.8.56602948"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_1a"
+    }
+    position {
+      latitude: -33.850327
+      longitude: 151.21165
+    }
+    timestamp: 1556516799
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SH2.45 Loc"
+    vehicle {
+      id: "8948.3353.5184.7541.9509.4864.1461.5737"
+      label: "15:39 Central Station to Berowra Station "
+    }
+  }
+}
+entity {
+  id: "60"
+  vehicle {
+    trip {
+      trip_id: "155J.1580.104.12.A.8.56600987"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_2a"
+    }
+    position {
+      latitude: -33.88337
+      longitude: 151.11583
+    }
+    timestamp: 1556516845
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Ashfield.Croydon 2 Loc"
+    vehicle {
+      id: "3656.7632.1718.4362.3099.9249.9828.8371"
+      label: "15:00 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "61"
+  vehicle {
+    trip {
+      trip_id: "156K.1580.104.4.A.8.56601129"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2c"
+    }
+    position {
+      latitude: -33.891724
+      longitude: 151.19896
+    }
+    timestamp: 1556516844
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Redfern 3 Loc"
+    vehicle {
+      id: "6846.3878.1561.5568.1900.8428.2898.5905"
+      label: "14:44 Emu Plains Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "62"
+  vehicle {
+    trip {
+      trip_id: "157J.1580.104.12.A.8.56603451"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_2a"
+    }
+    position {
+      latitude: -33.723392
+      longitude: 151.08632
+    }
+    timestamp: 1556516813
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.TH20 Entry Loc"
+    vehicle {
+      id: "2800.8528.9834.7538.3373.3669.9895.9955"
+      label: "15:44 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "63"
+  vehicle {
+    trip {
+      trip_id: "158J.1580.104.12.A.8.56601351"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2c"
+    }
+    position {
+      latitude: -33.80357
+      longitude: 150.96162
+    }
+    timestamp: 1556516844
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.S17.2 Loc"
+    vehicle {
+      id: "4420.8859.1710.1546.8400.5760.2349.3640"
+      label: "15:14 Emu Plains Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "64"
+  vehicle {
+    trip {
+      trip_id: "159M.1580.104.4.A.8.56603989"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_1a"
+    }
+    position {
+      latitude: -33.72198
+      longitude: 151.09273
+    }
+    timestamp: 1556516772
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.N19.45 Loc"
+    vehicle {
+      id: "7813.7472.7572.3003.9977.4111.4243.9830"
+      label: "15:01 Central Station to Hornsby Station "
+    }
+  }
+}
+entity {
+  id: "65"
+  vehicle {
+    trip {
+      trip_id: "16-P.1580.104.4.B.8.56604890"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_1a"
+    }
+    position {
+      latitude: -33.86379
+      longitude: 151.20547
+    }
+    timestamp: 1556516833
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.CO179 Loc"
+    vehicle {
+      id: "1561.2370.9275.1439.9955.2251.9934.6297"
+      label: "15:36 Central Station to Revesby Station "
+    }
+  }
+}
+entity {
+  id: "66"
+  vehicle {
+    trip {
+      trip_id: "160L.1580.104.124.A.8.56604739"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2d"
+    }
+    position {
+      latitude: -33.704388
+      longitude: 150.87411
+    }
+    timestamp: 1556516689
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "BLACKTOWN.SS_14C"
+    vehicle {
+      id: "3671.9971.8615.8033.7696.7938.2723.1312"
+      label: "15:52 Schofields Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "67"
+  vehicle {
+    trip {
+      trip_id: "161L.1580.104.124.A.8.56601145"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2c"
+    }
+    position {
+      latitude: -33.885307
+      longitude: 151.2057
+    }
+    timestamp: 1556516823
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SY380 Loc"
+    vehicle {
+      id: "5416.4889.9484.7878.8320.1404.3928.7146"
+      label: "14:59 Blacktown Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "68"
+  vehicle {
+    trip {
+      trip_id: "161M.1580.104.124.A.8.56604571"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_1a"
+    }
+    position {
+      latitude: -33.88396
+      longitude: 151.20673
+    }
+    timestamp: 1556516830
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Central 16 Loc"
+    vehicle {
+      id: "7257.3050.1403.6701.8045.2694.5683.2572"
+      label: "15:47 Central Station to Hornsby Station "
+    }
+  }
+}
+entity {
+  id: "69"
+  vehicle {
+    trip {
+      trip_id: "162N.1580.104.12.A.8.56601196"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_1a"
+    }
+    position {
+      latitude: -33.892887
+      longitude: 151.1464
+    }
+    timestamp: 1556516846
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Ashfield.S3.95 Loc"
+    vehicle {
+      id: "9424.4959.4002.8067.5615.1391.8633.2373"
+      label: "15:41 Central Station to Penrith Station "
+    }
+  }
+}
+entity {
+  id: "70"
+  vehicle {
+    trip {
+      trip_id: "163M.1580.104.4.A.8.56601936"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.822083
+      longitude: 151.19423
+    }
+    timestamp: 1556516796
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.St Leonards 2 Loc"
+    vehicle {
+      id: "9763.9007.9750.8942.9095.3263.6072.4789"
+      label: "15:33 Gordon Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "71"
+  vehicle {
+    trip {
+      trip_id: "164E.1580.104.4.A.8.57107943"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.709938
+      longitude: 151.10428
+    }
+    timestamp: 1556516792
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.Waitara 1 Loc"
+    vehicle {
+      id: "8099.3367.2119.7131.8804.8739.7236.2455"
+      label: "15:38 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "72"
+  vehicle {
+    trip {
+      trip_id: "166L.1580.104.12.A.8.56604810"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2d"
+    }
+    position {
+      latitude: -33.746517
+      longitude: 150.90012
+    }
+    timestamp: 1556516776
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "BLACKTOWN.BN_178F"
+    vehicle {
+      id: "5721.2616.6477.9211.7161.8016.6808.5250"
+      label: "15:11 Richmond Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "73"
+  vehicle {
+    trip {
+      trip_id: "167L.1580.104.12.A.8.56601021"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2d"
+    }
+    position {
+      latitude: -33.608627
+      longitude: 150.78801
+    }
+    timestamp: 1556516700
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "BLACKTOWN.CN_3B"
+    vehicle {
+      id: "8513.5740.4265.8925.5252.3720.4941.5606"
+      label: "15:41 Richmond Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "74"
+  vehicle {
+    trip {
+      trip_id: "168K.1580.104.100.A.8.56601926"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.87853
+      longitude: 151.20883
+    }
+    timestamp: 1556516798
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SY360 Loc"
+    vehicle {
+      id: "9129.7191.8807.4744.5567.2172.7142.4723"
+      label: "15:28 North Sydney Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "75"
+  vehicle {
+    trip {
+      trip_id: "169N.1580.104.4.A.8.56600980"
+      schedule_relationship: SCHEDULED
+      route_id: "NTH_1b"
+    }
+    position {
+      latitude: -33.79783
+      longitude: 151.181
+    }
+    timestamp: 1556516846
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.Chatswood 1 Loc"
+    vehicle {
+      id: "5293.4884.7975.1832.4439.6123.3948.3582"
+      label: "15:43 Lindfield Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "76"
+  vehicle {
+    trip {
+      trip_id: "17-N.1580.104.4.K.8.56604487"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_2b"
+    }
+    position {
+      latitude: -33.88749
+      longitude: 151.1255
+    }
+    timestamp: 1556514311
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Ashfield.Ashfield 4 Loc"
+    vehicle {
+      id: "5066.9268.1292.1262.2766.2539.2985.1400"
+      label: "15:21 Parramatta Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "77"
+  vehicle {
+    trip {
+      trip_id: "170L.1580.104.4.A.8.56603738"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.86756
+      longitude: 151.20593
+    }
+    timestamp: 1556516845
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SH1.10 Loc"
+    vehicle {
+      id: "5372.6310.2310.2853.6184.7412.5657.8183"
+      label: "15:18 Gordon Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "78"
+  vehicle {
+    trip {
+      trip_id: "181-.0.0.4-19700101.A.8.0"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2k"
+    }
+    position {
+      latitude: -33.74928
+      longitude: 150.69421
+    }
+    timestamp: 1556484599
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.PH4/23 Exit Loc"
+    vehicle {
+      label: "00:00 Gordon Station to Redfern Station "
+    }
+  }
+}
+entity {
+  id: "79"
+  vehicle {
+    trip {
+      trip_id: "19-L.1580.104.4.B.8.56602317"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_2a"
+    }
+    position {
+      latitude: -34.06355
+      longitude: 150.81453
+    }
+    timestamp: 1556516761
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.Campbelltown 2 Loc"
+    vehicle {
+      id: "1317.4379.2343.3203.7035.3233.9921.6024"
+      label: "15:44 Macarthur Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "80"
+  vehicle {
+    trip {
+      trip_id: "2--N.1580.104.124.B.8.56601626"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_1a"
+    }
+    position {
+      latitude: -33.86516
+      longitude: 151.21361
+    }
+    timestamp: 1556516777
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.CI112 Loc"
+    vehicle {
+      id: "4935.7802.7437.8597.6151.8508.1142.8102"
+      label: "15:39 Central Station to Parramatta Station "
+    }
+  }
+}
+entity {
+  id: "81"
+  vehicle {
+    trip {
+      trip_id: "20-J.1580.104.60.B.8.56601220"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_2a"
+    }
+    position {
+      latitude: -33.925453
+      longitude: 151.05547
+    }
+    timestamp: 1556516834
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "CampsieBankstown.SM282LOC"
+    vehicle {
+      id: "6135.9505.4979.2141.1711.1707.6091.5400"
+      label: "15:26 Bankstown Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "82"
+  vehicle {
+    trip {
+      trip_id: "21-G.1580.104.4.B.8.56601576"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_1c"
+    }
+    position {
+      latitude: -33.86715
+      longitude: 151.03651
+    }
+    timestamp: 1556516837
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Lidcombe.ST414LC Loc"
+    vehicle {
+      id: "6112.4745.8100.3900.5156.8191.2125.1722"
+      label: "15:28 Regent\'s Park Station to Lidcombe Station "
+    }
+  }
+}
+entity {
+  id: "83"
+  vehicle {
+    trip {
+      trip_id: "22-T.1580.104.4.B.8.56602593"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_2d"
+    }
+    position {
+      latitude: -33.915977
+      longitude: 151.16391
+    }
+    timestamp: 1556516804
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.SM620BER"
+    vehicle {
+      id: "4969.9347.4549.6442.7789.1498.6862.6190"
+      label: "15:02 Liverpool Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "84"
+  vehicle {
+    trip {
+      trip_id: "242F.1580.104.44.H.4.56603948"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_DEF"
+    }
+    position {
+      latitude: -33.884403
+      longitude: 151.2049
+    }
+    timestamp: 1556512813
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Sydney MR 5-6 Loc"
+    vehicle {
+      id: "6761.3266.7199.1180"
+    }
+  }
+}
+entity {
+  id: "85"
+  vehicle {
+    trip {
+      trip_id: "242G.1580.104.44.H.4.56603853"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_DEF"
+    }
+    position {
+      latitude: -33.884403
+      longitude: 151.2049
+    }
+    timestamp: 1556513913
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Sydney MR 5-6 Loc"
+    vehicle {
+      id: "6295.4838.2655.9882"
+    }
+  }
+}
+entity {
+  id: "86"
+  vehicle {
+    trip {
+      trip_id: "25-M.1580.104.124.C.8.56603148"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_1a"
+    }
+    position {
+      latitude: -33.893208
+      longitude: 151.14728
+    }
+    timestamp: 1556516797
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Ashfield.Lewisham 2 Loc"
+    vehicle {
+      id: "8832.9755.2935.1552.6519.1264.7225.2121"
+      label: "15:09 Central Station to Parramatta Station "
+    }
+  }
+}
+entity {
+  id: "87"
+  vehicle {
+    trip {
+      trip_id: "27-K.1580.104.4.C.8.56603581"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_1e"
+    }
+    position {
+      latitude: -33.86756
+      longitude: 151.20593
+    }
+    timestamp: 1556516821
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.CI210 Loc"
+    vehicle {
+      id: "3446.5351.1598.7643.1005.6428.2451.2335"
+      label: "15:36 Central Station to Liverpool Station "
+    }
+  }
+}
+entity {
+  id: "88"
+  vehicle {
+    trip {
+      trip_id: "28-D.1580.104.124.C.8.56602720"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_2a"
+    }
+    position {
+      latitude: -33.891724
+      longitude: 151.19896
+    }
+    timestamp: 1556516502
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Redfern 7 Loc"
+    vehicle {
+      id: "1039.9883.5226.8581.6590.6670.4896.1125"
+      label: "14:54 Redfern Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "89"
+  vehicle {
+    trip {
+      trip_id: "281G.1580.104.124.H.8.56602050"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.857002
+      longitude: 151.20757
+    }
+    timestamp: 1556516837
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SH1.94 Loc"
+    vehicle {
+      id: "4040.7208.6573.4240.3881.2500.3150.5001"
+      label: "15:00 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "90"
+  vehicle {
+    trip {
+      trip_id: "283F.1580.104.4.H.8.56602728"
+      schedule_relationship: SCHEDULED
+      route_id: "CCN_1a"
+    }
+    position {
+      latitude: -33.54715
+      longitude: 151.22635
+    }
+    timestamp: 1556516840
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.Hawkesbury R 2 Loc"
+    vehicle {
+      id: "8245.1705.3228.3221.4258.3746.5224.7924"
+      label: "14:45 Central Station to Gosford Station "
+    }
+  }
+}
+entity {
+  id: "91"
+  vehicle {
+    trip {
+      trip_id: "284G.1580.104.44.H.8.56604743"
+      schedule_relationship: SCHEDULED
+      route_id: "CCN_1c"
+    }
+    position {
+      latitude: -33.87164
+      longitude: 151.0942
+    }
+    timestamp: 1556516782
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.Strathfield 3 Loc"
+    vehicle {
+      id: "9864.5435.9401.8521.1529.4290.5894.1314"
+      label: "15:35 Central Station to Gosford Station "
+    }
+  }
+}
+entity {
+  id: "92"
+  vehicle {
+    trip {
+      trip_id: "286G.1580.104.124.H.8.56601431"
+      schedule_relationship: SCHEDULED
+      route_id: "NSN_2a"
+    }
+    position {
+      latitude: -33.807312
+      longitude: 151.18323
+    }
+    timestamp: 1556516791
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NorthShore.SH6.46 Loc"
+    vehicle {
+      id: "8715.1142.9055.9000.8958.9355.5936.2411"
+      label: "15:15 Hornsby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "93"
+  vehicle {
+    trip {
+      trip_id: "287D.1580.104.60.H.8.56601767"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2c"
+    }
+    position {
+      latitude: -33.82042
+      longitude: 151.00775
+    }
+    timestamp: 1556516847
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.WS14.2 Loc"
+    vehicle {
+      id: "9383.2977.2769.2595.5510.9693.8752.8624"
+      label: "15:31 Blacktown Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "94"
+  vehicle {
+    trip {
+      trip_id: "289D.1580.104.60.H.8.56605251"
+      schedule_relationship: SCHEDULED
+      route_id: "WST_2c"
+    }
+    position {
+      latitude: -33.7628
+      longitude: 150.90585
+    }
+    timestamp: 1556499660
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "BLACKTOWN.BN_CS2"
+    vehicle {
+      id: "2287.3803.4274.5012.6463.6787.2695.3003"
+      label: "16:02 Blacktown Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "95"
+  vehicle {
+    trip {
+      trip_id: "29-N.1580.104.4.C.8.56604367"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_2d"
+    }
+    position {
+      latitude: -33.883568
+      longitude: 150.99968
+    }
+    timestamp: 1556516827
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sefton.Chester Hill 1 Loc"
+    vehicle {
+      id: "1840.9363.5970.4078.6397.1449.5318.6480"
+      label: "15:32 Liverpool Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "96"
+  vehicle {
+    trip {
+      trip_id: "291F.1580.104.4.H.8.56605271"
+      schedule_relationship: SCHEDULED
+      route_id: "CCN_2a"
+    }
+    position {
+      latitude: -33.688534
+      longitude: 151.10815
+    }
+    timestamp: 1556516826
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.Asquith 1 Loc"
+    vehicle {
+      id: "4899.7323.6128.4242.7653.6641.6362.6681"
+      label: "13:34 Newcastle Interchange Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "97"
+  vehicle {
+    trip {
+      trip_id: "299D.1580.104.60.H.8.56601609"
+      schedule_relationship: SCHEDULED
+      route_id: "CCN_1c"
+    }
+    position {
+      latitude: -33.883587
+      longitude: 151.20609
+    }
+    timestamp: 1556515590
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Sydney 9 Loc"
+    vehicle {
+      id: "8866.7350.1904.2224.4624.2039.2206.4480"
+      label: "15:50 Central Station to Newcastle Interchange Station "
+    }
+  }
+}
+entity {
+  id: "98"
+  vehicle {
+    trip {
+      trip_id: "3--M.1580.104.4.B.8.56601417"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_2a"
+    }
+    position {
+      latitude: -33.93385
+      longitude: 151.16464
+    }
+    timestamp: 1556516826
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NewSouthernRailway.SR8.2BER"
+    vehicle {
+      id: "9359.3573.3831.2697.5061.3222.8051.9002"
+      label: "14:59 Macarthur Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "99"
+  vehicle {
+    trip {
+      trip_id: "31-H.1580.104.124.K.8.56601786"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_DEF"
+    }
+    position {
+      latitude: -34.06729
+      longitude: 150.80974
+    }
+    timestamp: 1556493010
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.CNS33.8 Exit Loc"
+    vehicle {
+      id: "5478.2531.5551.1233.3020.2997.1173.9940"
+    }
+  }
+}
+entity {
+  id: "100"
+  vehicle {
+    trip {
+      trip_id: "32-J.1580.104.124.K.8.56605182"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_2f"
+    }
+    position {
+      latitude: -33.862892
+      longitude: 151.04297
+    }
+    timestamp: 1556516763
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Lidcombe.ST408LC Loc"
+    vehicle {
+      id: "2037.1589.4418.1455.2114.5635.2321.2912"
+      label: "15:10 Liverpool Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "101"
+  vehicle {
+    trip {
+      trip_id: "33-E.1580.104.92.K.8.56602066"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_2a"
+    }
+    position {
+      latitude: -33.896687
+      longitude: 151.18768
+    }
+    timestamp: 1556498367
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SY506 Loc"
+    vehicle {
+      id: "3022.7271.9315.7314.6737.3981.4762.9921"
+      label: "16:00 Redfern Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "102"
+  vehicle {
+    trip {
+      trip_id: "34-E.1580.104.4.S.8.56604929"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_REV"
+    }
+    position {
+      latitude: -33.895462
+      longitude: 151.1901
+    }
+    timestamp: 1556507489
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SY509 Loc"
+    vehicle {
+      id: "1416.1503.1148.1024.8309.2295.1378.2190"
+      label: "17:12 Central Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "103"
+  vehicle {
+    trip {
+      trip_id: "4--L.1580.104.4.B.8.56605197"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_1a"
+    }
+    position {
+      latitude: -33.964222
+      longitude: 150.96617
+    }
+    timestamp: 1556516805
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "EastHills.EH16.09 Loc"
+    vehicle {
+      id: "5251.2598.7714.8371.4295.9351.4922.4077"
+      label: "14:57 Central Station to Macarthur Station "
+    }
+  }
+}
+entity {
+  id: "104"
+  vehicle {
+    trip {
+      trip_id: "44-C.1580.104.124.K.8.56603223"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_REV"
+    }
+    position {
+      latitude: -33.895462
+      longitude: 151.1901
+    }
+    timestamp: 1556491461
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SY510 Loc"
+    vehicle {
+      id: "3749.8895.9037.8760.6781.3694.6406.3193"
+      label: "16:42 Central Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "105"
+  vehicle {
+    trip {
+      trip_id: "45-G.1580.104.4.K.8.56603770"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_2a"
+    }
+    position {
+      latitude: -33.895462
+      longitude: 151.1901
+    }
+    timestamp: 1556496044
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SY508 Loc"
+    vehicle {
+      id: "5189.6626.6800.9558.1983.5698.6222.6772"
+      label: "16:55 Redfern Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "106"
+  vehicle {
+    trip {
+      trip_id: "456H.1580.104.4.H.8.56805898"
+      schedule_relationship: SCHEDULED
+      route_id: "SCO_2a"
+    }
+    position {
+      latitude: -33.93562
+      longitude: 151.14778
+    }
+    timestamp: 1556516836
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.SM808BER"
+    vehicle {
+      id: "6945.4956.5001.3272.7756.7714.5388.2402"
+      label: "13:55 Kiama Station to Martin Place Station "
+    }
+  }
+}
+entity {
+  id: "107"
+  vehicle {
+    trip {
+      trip_id: "469G.1580.104.52.H.8.56602380"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2a"
+    }
+    position {
+      latitude: -33.97362
+      longitude: 151.07986
+    }
+    timestamp: 1556516817
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hurstville.SM1046/1051LOC"
+    vehicle {
+      id: "1974.6305.1986.8885.7073.2452.2018.8297"
+      label: "15:26 Waterfall Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "108"
+  vehicle {
+    trip {
+      trip_id: "471J.1580.104.52.H.8.56601178"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2a"
+    }
+    position {
+      latitude: -34.05593
+      longitude: 151.03973
+    }
+    timestamp: 1556516808
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sutherland.SW17.4 Loc"
+    vehicle {
+      id: "7581.2646.6050.2254.3452.3953.2444.3372"
+      label: "15:42 Sutherland Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "109"
+  vehicle {
+    trip {
+      trip_id: "49BA.1580.104.124.S.4.56603719"
+      schedule_relationship: SCHEDULED
+      route_id: "CGF_1"
+    }
+    position {
+      latitude: -33.83595
+      longitude: 151.01706
+    }
+    timestamp: 1556515699
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.Clyde 1 Loc"
+    vehicle {
+      id: "4487.1068.2524.9789"
+      label: "15:56 Clyde Station to Carlingford Station "
+    }
+  }
+}
+entity {
+  id: "110"
+  vehicle {
+    trip {
+      trip_id: "5--L.1580.104.4.B.8.56601889"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_1a"
+    }
+    position {
+      latitude: -33.917793
+      longitude: 151.03436
+    }
+    timestamp: 1556516745
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "CampsieBankstown.SM336/339LOC"
+    vehicle {
+      id: "6012.3006.4719.6753.1689.4574.6752.2840"
+      label: "14:54 Central Station to Birrong Station "
+    }
+  }
+}
+entity {
+  id: "111"
+  vehicle {
+    trip {
+      trip_id: "50AH.1580.104.60.M.4.56605037"
+      schedule_relationship: SCHEDULED
+      route_id: "CMB_1a"
+    }
+    position {
+      latitude: -33.872066
+      longitude: 150.95749
+    }
+    timestamp: 1556516816
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Liverpool.Fairfield 2 Loc"
+    vehicle {
+      id: "4974.6157.1185.4010"
+      label: "14:58 Schofields Station to Leppington Station "
+    }
+  }
+}
+entity {
+  id: "112"
+  vehicle {
+    trip {
+      trip_id: "51AG.1580.104.124.M.4.56604700"
+      schedule_relationship: SCHEDULED
+      route_id: "CMB_1a"
+    }
+    position {
+      latitude: -33.774265
+      longitude: 150.93576
+    }
+    timestamp: 1556516787
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "BLACKTOWN.BN_16F"
+    vehicle {
+      id: "2641.5276.1512.2968"
+      label: "15:34 Schofields Station to Leppington Station "
+    }
+  }
+}
+entity {
+  id: "113"
+  vehicle {
+    trip {
+      trip_id: "52AF.1580.104.124.M.4.56602039"
+      schedule_relationship: SCHEDULED
+      route_id: "CMB_1b"
+    }
+    position {
+      latitude: -33.7628
+      longitude: 150.90585
+    }
+    timestamp: 1556499887
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "BLACKTOWN.BN_CS11"
+    vehicle {
+      id: "9565.8574.4034.5717"
+      label: "16:08 Blacktown Station to Leppington Station "
+    }
+  }
+}
+entity {
+  id: "114"
+  vehicle {
+    trip {
+      trip_id: "53AE.1580.104.52.M.4.56603805"
+      schedule_relationship: SCHEDULED
+      route_id: "CMB_2b"
+    }
+    position {
+      latitude: -33.81754
+      longitude: 151.00523
+    }
+    timestamp: 1556516845
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.Parramatta 3 Loc"
+    vehicle {
+      id: "4384.5493.7436.6460"
+      label: "15:03 Leppington Station to Blacktown Station "
+    }
+  }
+}
+entity {
+  id: "115"
+  vehicle {
+    trip {
+      trip_id: "54AE.1580.104.60.M.4.56603980"
+      schedule_relationship: SCHEDULED
+      route_id: "CMB_2b"
+    }
+    position {
+      latitude: -33.94981
+      longitude: 150.91196
+    }
+    timestamp: 1556516753
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.Casula 1 Loc"
+    vehicle {
+      id: "5551.8602.8009.6202"
+      label: "15:33 Leppington Station to Blacktown Station "
+    }
+  }
+}
+entity {
+  id: "116"
+  vehicle {
+    trip {
+      trip_id: "552U.1629.101.2.A.8.56410931"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_DEF"
+    }
+    position {
+      latitude: -33.74986
+      longitude: 150.69424
+    }
+    timestamp: 1556466958
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.PH101 Exit Loc"
+    vehicle {
+      id: "2122.7582.1622.9561.2672.3008.9805.8536"
+    }
+  }
+}
+entity {
+  id: "117"
+  vehicle {
+    trip {
+      trip_id: "55AG.1580.104.124.M.4.56604493"
+      schedule_relationship: SCHEDULED
+      route_id: "CMB_1a"
+    }
+    position {
+      latitude: -33.954975
+      longitude: 150.81691
+    }
+    timestamp: 1556516834
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.LE5 Loc"
+    vehicle {
+      id: "5819.2221.1075.8666"
+      label: "14:29 Schofields Station to Leppington Station "
+    }
+  }
+}
+entity {
+  id: "118"
+  vehicle {
+    trip {
+      trip_id: "6--P.1580.104.4.B.8.56605436"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_1e"
+    }
+    position {
+      latitude: -33.881508
+      longitude: 150.9849
+    }
+    timestamp: 1556516835
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sefton.Leightonfield 2 Loc"
+    vehicle {
+      id: "1181.4625.5811.7139.7970.3701.1223.4691"
+      label: "14:36 Central Station to Liverpool Station "
+    }
+  }
+}
+entity {
+  id: "119"
+  vehicle {
+    trip {
+      trip_id: "60-L.1580.104.4.M.8.56601490"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_2a"
+    }
+    position {
+      latitude: -33.912945
+      longitude: 151.02814
+    }
+    timestamp: 1556516846
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "CampsieBankstown.SM372LOC"
+    vehicle {
+      id: "8424.9004.5824.6693.3981.9634.8228.7896"
+      label: "15:41 Birrong Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "120"
+  vehicle {
+    trip {
+      trip_id: "600E.1580.104.60.T.8.56602307"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2a"
+    }
+    position {
+      latitude: -33.961285
+      longitude: 151.1328
+    }
+    timestamp: 1556516800
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.SM862BER"
+    vehicle {
+      id: "4154.1904.1037.6270.2893.3193.5414.2053"
+      label: "15:31 Mortdale Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "121"
+  vehicle {
+    trip {
+      trip_id: "601E.1580.104.60.T.8.56601095"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2a"
+    }
+    position {
+      latitude: -33.86794
+      longitude: 151.21133
+    }
+    timestamp: 1556516816
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.Martin Place 2 Loc"
+    vehicle {
+      id: "7877.2130.5730.2400.5189.9576.3179.3885"
+      label: "15:17 Hurstville Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "122"
+  vehicle {
+    trip {
+      trip_id: "602H.1580.104.4.T.8.56601517"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_1d"
+    }
+    position {
+      latitude: -34.041622
+      longitude: 151.12212
+    }
+    timestamp: 1556516809
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sutherland.Caringbah 2 Loc"
+    vehicle {
+      id: "4228.8794.9312.8114.1454.4909.3478.5736"
+      label: "14:45 Bondi Junction Station to Cronulla Station "
+    }
+  }
+}
+entity {
+  id: "123"
+  vehicle {
+    trip {
+      trip_id: "603E.1580.104.124.T.8.56603823"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2a"
+    }
+    position {
+      latitude: -33.87478
+      longitude: 151.22234
+    }
+    timestamp: 1556516790
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.Kings Cross 2 Loc"
+    vehicle {
+      id: "5525.7515.3340.9409.8261.9249.4313.9994"
+      label: "15:03 Mortdale Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "124"
+  vehicle {
+    trip {
+      trip_id: "604E.1580.104.124.T.8.56602958"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2a"
+    }
+    position {
+      latitude: -33.92406
+      longitude: 151.15645
+    }
+    timestamp: 1556516836
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.SM650BER"
+    vehicle {
+      id: "7235.5295.5653.1788.6754.5465.9776.2831"
+      label: "15:23 Hurstville Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "125"
+  vehicle {
+    trip {
+      trip_id: "605H.1580.104.4.T.8.56602190"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_1a"
+    }
+    position {
+      latitude: -33.9684
+      longitude: 151.10695
+    }
+    timestamp: 1556516848
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hurstville.SM914/921LOC"
+    vehicle {
+      id: "4031.9913.5097.6707.2315.6511.2817.1961"
+      label: "15:08 Bondi Junction Station to Hurstville Station "
+    }
+  }
+}
+entity {
+  id: "126"
+  vehicle {
+    trip {
+      trip_id: "606F.1580.104.124.T.8.56605471"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_1a"
+    }
+    position {
+      latitude: -33.905533
+      longitude: 151.18367
+    }
+    timestamp: 1556516845
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.SM553 Loc"
+    vehicle {
+      id: "9486.2435.9842.9138.7442.7437.8093.9382"
+      label: "15:28 Bondi Junction Station to Hurstville Station "
+    }
+  }
+}
+entity {
+  id: "127"
+  vehicle {
+    trip {
+      trip_id: "608G.1580.104.4.T.8.56601446"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2a"
+    }
+    position {
+      latitude: -33.87957
+      longitude: 151.2069
+    }
+    timestamp: 1556516825
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.ES0.39 Loc"
+    vehicle {
+      id: "7989.8060.9993.6806.2153.7427.7395.6396"
+      label: "15:00 Waterfall Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "128"
+  vehicle {
+    trip {
+      trip_id: "609G.1580.104.4.T.8.56601400"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2a"
+    }
+    position {
+      latitude: -34.004845
+      longitude: 151.06824
+    }
+    timestamp: 1556516833
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hurstville.SM1124/1129LOC"
+    vehicle {
+      id: "8233.7548.9094.7578.5193.9766.8340.3397"
+      label: "15:27 Waterfall Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "129"
+  vehicle {
+    trip {
+      trip_id: "61-K.1580.104.4.M.8.56601479"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_2j"
+    }
+    position {
+      latitude: -33.890812
+      longitude: 151.14056
+    }
+    timestamp: 1556516835
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Ashfield.S4.10 Loc"
+    vehicle {
+      id: "6354.8666.5208.3240.9613.8299.6543.6429"
+      label: "14:39 Glenfield Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "130"
+  vehicle {
+    trip {
+      trip_id: "610G.1580.104.60.T.8.56603627"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2d"
+    }
+    position {
+      latitude: -34.03403
+      longitude: 151.0556
+    }
+    timestamp: 1556516824
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sutherland.SD42 Loc"
+    vehicle {
+      id: "6990.2917.7379.4935.5923.7158.6922.1892"
+      label: "15:33 Cronulla Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "131"
+  vehicle {
+    trip {
+      trip_id: "611L.1580.104.4.T.8.56603498"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_1d"
+    }
+    position {
+      latitude: -33.8816
+      longitude: 151.24055
+    }
+    timestamp: 1556516847
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.ES5.16 Loc"
+    vehicle {
+      id: "4725.5379.8805.3112.3770.4177.2822.6957"
+      label: "15:45 Bondi Junction Station to Cronulla Station "
+    }
+  }
+}
+entity {
+  id: "132"
+  vehicle {
+    trip {
+      trip_id: "612K.1580.104.60.T.8.56603612"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2a"
+    }
+    position {
+      latitude: -33.88901
+      longitude: 151.20174
+    }
+    timestamp: 1556516821
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.IR0.86 Loc"
+    vehicle {
+      id: "5878.3796.3595.5250.8469.5772.4794.3794"
+      label: "14:49 Hurstville Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "133"
+  vehicle {
+    trip {
+      trip_id: "613G.1580.104.124.T.8.56603246"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_1a"
+    }
+    position {
+      latitude: -33.891094
+      longitude: 151.24722
+    }
+    timestamp: 1556516553
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.Bondi Junction 1 Loc"
+    vehicle {
+      id: "9814.7368.1933.3017.1075.3377.2764.9920"
+      label: "15:48 Bondi Junction Station to Hurstville Station "
+    }
+  }
+}
+entity {
+  id: "134"
+  vehicle {
+    trip {
+      trip_id: "614K.1580.104.60.T.8.56601872"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2d"
+    }
+    position {
+      latitude: -33.897793
+      longitude: 151.18906
+    }
+    timestamp: 1556516814
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.IR2.58 Loc"
+    vehicle {
+      id: "2693.4076.9867.7751.8899.6947.3967.1310"
+      label: "15:03 Cronulla Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "135"
+  vehicle {
+    trip {
+      trip_id: "615L.1580.104.60.T.8.56602578"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_1d"
+    }
+    position {
+      latitude: -33.967384
+      longitude: 151.10281
+    }
+    timestamp: 1556516814
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hurstville.SM927LOC"
+    vehicle {
+      id: "3440.4973.2447.9006.2630.2678.8099.1341"
+      label: "15:15 Bondi Junction Station to Cronulla Station "
+    }
+  }
+}
+entity {
+  id: "136"
+  vehicle {
+    trip {
+      trip_id: "616K.1580.104.4.T.8.56601771"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2d"
+    }
+    position {
+      latitude: -33.96848
+      longitude: 151.10696
+    }
+    timestamp: 1556516829
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hurstville.SM912/917LOC"
+    vehicle {
+      id: "1395.6278.5175.3110.3434.6814.9800.8134"
+      label: "15:18 Cronulla Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "137"
+  vehicle {
+    trip {
+      trip_id: "617M.1580.104.4.T.8.56603364"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_1d"
+    }
+    position {
+      latitude: -33.87581
+      longitude: 151.20631
+    }
+    timestamp: 1556516817
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.ES0.74 Loc"
+    vehicle {
+      id: "8606.1507.3091.4056.4087.2539.6970.6691"
+      label: "15:35 Bondi Junction Station to Cronulla Station "
+    }
+  }
+}
+entity {
+  id: "138"
+  vehicle {
+    trip {
+      trip_id: "619K.1580.104.4.T.8.56602774"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_1a"
+    }
+    position {
+      latitude: -33.920494
+      longitude: 151.15805
+    }
+    timestamp: 1556516845
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.SM637BER"
+    vehicle {
+      id: "9075.2116.3470.2253.2833.5130.9850.6018"
+      label: "15:25 Bondi Junction Station to Waterfall Station "
+    }
+  }
+}
+entity {
+  id: "139"
+  vehicle {
+    trip {
+      trip_id: "62-S.1580.104.4.M.8.56601004"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_2a"
+    }
+    position {
+      latitude: -33.891724
+      longitude: 151.19896
+    }
+    timestamp: 1556516423
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Redfern 9 Loc"
+    vehicle {
+      id: "7328.5909.2975.8721.7583.5803.4518.5509"
+      label: "15:45 Redfern Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "140"
+  vehicle {
+    trip {
+      trip_id: "620H.1580.104.4.T.8.56602384"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_1d"
+    }
+    position {
+      latitude: -34.004826
+      longitude: 151.06824
+    }
+    timestamp: 1556516832
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hurstville.SM1127/1122LOC"
+    vehicle {
+      id: "7065.1845.9825.3869.4151.4129.9318.4834"
+      label: "15:05 Bondi Junction Station to Cronulla Station "
+    }
+  }
+}
+entity {
+  id: "141"
+  vehicle {
+    trip {
+      trip_id: "621K.1580.104.60.T.8.56601997"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2d"
+    }
+    position {
+      latitude: -33.87977
+      longitude: 151.23676
+    }
+    timestamp: 1556516808
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.Edgecliff 2 Loc"
+    vehicle {
+      id: "7761.5253.7244.5693.4552.1056.9961.5357"
+      label: "14:48 Cronulla Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "142"
+  vehicle {
+    trip {
+      trip_id: "622D.1580.104.124.T.8.56603432"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2a"
+    }
+    position {
+      latitude: -33.965435
+      longitude: 151.09396
+    }
+    timestamp: 1556516836
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hurstville.SM948/949LOC"
+    vehicle {
+      id: "1932.8250.6837.3323.9809.6380.1415.2657"
+      label: "15:44 Hurstville Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "143"
+  vehicle {
+    trip {
+      trip_id: "623L.1580.104.4.T.8.56604406"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_1a"
+    }
+    position {
+      latitude: -34.031765
+      longitude: 151.05716
+    }
+    timestamp: 1556516794
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sutherland.Sutherland 3 Loc"
+    vehicle {
+      id: "6939.8399.3458.8552.2530.6022.7077.3694"
+      label: "14:55 Bondi Junction Station to Waterfall Station "
+    }
+  }
+}
+entity {
+  id: "144"
+  vehicle {
+    trip {
+      trip_id: "624K.1580.104.4.T.8.56604661"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_2d"
+    }
+    position {
+      latitude: -34.05602
+      longitude: 151.15147
+    }
+    timestamp: 1556516267
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sutherland.Cronulla 1 Loc"
+    vehicle {
+      id: "2662.6551.8281.2985.8507.3487.5107.4605"
+      label: "15:48 Cronulla Station to Bondi Junction Station "
+    }
+  }
+}
+entity {
+  id: "145"
+  vehicle {
+    trip {
+      trip_id: "625G.1580.104.124.T.8.56601294"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_1a"
+    }
+    position {
+      latitude: -33.87078
+      longitude: 151.20746
+    }
+    timestamp: 1556516822
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.ES1.54 Loc"
+    vehicle {
+      id: "3995.2712.8278.4050.9167.4352.5628.5167"
+      label: "15:38 Bondi Junction Station to Hurstville Station "
+    }
+  }
+}
+entity {
+  id: "146"
+  vehicle {
+    trip {
+      trip_id: "627H.1580.104.124.T.8.56604062"
+      schedule_relationship: SCHEDULED
+      route_id: "ESI_1a"
+    }
+    position {
+      latitude: -33.945374
+      longitude: 151.14037
+    }
+    timestamp: 1556516813
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.SM833BER"
+    vehicle {
+      id: "1503.2934.8031.7834.5129.4560.9418.5921"
+      label: "15:18 Bondi Junction Station to Hurstville Station "
+    }
+  }
+}
+entity {
+  id: "147"
+  vehicle {
+    trip {
+      trip_id: "63-N.1580.104.4.M.8.56601268"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_1a"
+    }
+    position {
+      latitude: -33.864662
+      longitude: 151.05553
+    }
+    timestamp: 1556516827
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Lidcombe.ST387S Loc"
+    vehicle {
+      id: "7578.4805.6011.6491.9562.5646.7254.3829"
+      label: "14:54 Central Station to Parramatta Station "
+    }
+  }
+}
+entity {
+  id: "148"
+  vehicle {
+    trip {
+      trip_id: "64-J.1580.104.60.M.8.56604498"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_1a"
+    }
+    position {
+      latitude: -33.830704
+      longitude: 151.00908
+    }
+    timestamp: 1556516818
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.GE406/409 Loc"
+    vehicle {
+      id: "7411.4571.6212.2524.1130.7552.7126.3082"
+      label: "14:39 Central Station to Parramatta Station "
+    }
+  }
+}
+entity {
+  id: "149"
+  vehicle {
+    trip {
+      trip_id: "65-J.1580.104.60.M.8.56603864"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_2a"
+    }
+    position {
+      latitude: -33.895462
+      longitude: 151.1901
+    }
+    timestamp: 1556507613
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SY511 Loc"
+    vehicle {
+      id: "4332.6971.3977.3177.8618.8459.3369.8685"
+      label: "16:14 Redfern Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "150"
+  vehicle {
+    trip {
+      trip_id: "66-R.1580.104.60.M.8.56603276"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_2a"
+    }
+    position {
+      latitude: -33.934082
+      longitude: 151.11934
+    }
+    timestamp: 1556516830
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "EastHills.L10.6 Loc"
+    vehicle {
+      id: "8806.5492.4278.4579.2748.2649.6045.8580"
+      label: "15:32 Revesby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "151"
+  vehicle {
+    trip {
+      trip_id: "68-L.1580.104.4.M.8.56601128"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_2a"
+    }
+    position {
+      latitude: -33.952785
+      longitude: 151.0106
+    }
+    timestamp: 1556516846
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "EastHills.RY30 Loc"
+    vehicle {
+      id: "2193.9209.7432.1393.8791.5705.4745.4739"
+      label: "15:14 Macarthur Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "152"
+  vehicle {
+    trip {
+      trip_id: "69-L.1580.104.4.M.8.56604795"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_2a"
+    }
+    position {
+      latitude: -33.97833
+      longitude: 150.88618
+    }
+    timestamp: 1556516831
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.GD36 Loc"
+    vehicle {
+      id: "8206.1132.1764.6750.9783.1004.3251.4541"
+      label: "15:30 Macarthur Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "153"
+  vehicle {
+    trip {
+      trip_id: "7--P.1580.104.4.K.8.56603507"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_1e"
+    }
+    position {
+      latitude: -33.919937
+      longitude: 151.07593
+    }
+    timestamp: 1556516783
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "CampsieBankstown.SM275LOC"
+    vehicle {
+      id: "8743.6317.6599.6743.2804.7365.6340.6118"
+      label: "15:06 Central Station to Liverpool Station "
+    }
+  }
+}
+entity {
+  id: "154"
+  vehicle {
+    trip {
+      trip_id: "71-J.1580.104.60.M.8.56602181"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_2a"
+    }
+    position {
+      latitude: -33.89367
+      longitude: 151.19536
+    }
+    timestamp: 1556516824
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SY452 Loc"
+    vehicle {
+      id: "5323.7151.7937.7136.4952.4123.1299.8580"
+      label: "15:06 Homebush Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "155"
+  vehicle {
+    trip {
+      trip_id: "8--S.1580.104.4.B.8.56601707"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_1a"
+    }
+    position {
+      latitude: -33.89773
+      longitude: 151.17992
+    }
+    timestamp: 1556516844
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Ashfield.Newtown 2 Loc"
+    vehicle {
+      id: "7016.8412.3965.9767.8424.4143.8656.5559"
+      label: "15:24 Central Station to Parramatta Station "
+    }
+  }
+}
+entity {
+  id: "156"
+  vehicle {
+    trip {
+      trip_id: "81-M.1580.104.4.A.8.56601009"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_1c"
+    }
+    position {
+      latitude: -33.89369
+      longitude: 151.15572
+    }
+    timestamp: 1556516817
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Ashfield.Petersham 2 Loc"
+    vehicle {
+      id: "8514.3738.1961.5934.2969.8623.4921.4661"
+      label: "15:16 Central Station to Leppington Station "
+    }
+  }
+}
+entity {
+  id: "157"
+  vehicle {
+    trip {
+      trip_id: "82-L.1580.104.4.A.8.56605503"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_2a"
+    }
+    position {
+      latitude: -33.90796
+      longitude: 151.17802
+    }
+    timestamp: 1556516785
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.SY570BER"
+    vehicle {
+      id: "3421.5156.1148.9100.8298.6128.4682.9659"
+      label: "15:11 Birrong Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "158"
+  vehicle {
+    trip {
+      trip_id: "83-M.1580.104.4.A.8.56602218"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_1c"
+    }
+    position {
+      latitude: -33.88061
+      longitude: 151.20859
+    }
+    timestamp: 1556516820
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.CI24/SY359 Loc"
+    vehicle {
+      id: "1958.8886.3494.3277.2440.3173.4838.8677"
+      label: "15:46 Central Station to Leppington Station "
+    }
+  }
+}
+entity {
+  id: "159"
+  vehicle {
+    trip {
+      trip_id: "84-R.1580.104.4.A.8.56600872"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_1a"
+    }
+    position {
+      latitude: -33.910297
+      longitude: 151.13205
+    }
+    timestamp: 1556516800
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.SM177 LOC"
+    vehicle {
+      id: "3740.2993.9312.6490.1323.4035.3353.4593"
+      label: "15:09 Central Station to Birrong Station "
+    }
+  }
+}
+entity {
+  id: "160"
+  vehicle {
+    trip {
+      trip_id: "85-N.1580.104.4.A.8.56600967"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_1c"
+    }
+    position {
+      latitude: -33.87892
+      longitude: 151.20885
+    }
+    timestamp: 1556516849
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.CI258 Loc"
+    vehicle {
+      id: "7998.2844.8852.7613.8316.6902.6169.8799"
+      label: "15:31 Central Station to Leppington Station "
+    }
+  }
+}
+entity {
+  id: "161"
+  vehicle {
+    trip {
+      trip_id: "86-P.1580.104.60.B.8.56603809"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_2a"
+    }
+    position {
+      latitude: -33.90985
+      longitude: 151.19588
+    }
+    timestamp: 1556516772
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NewSouthernRailway.SR3.2BER"
+    vehicle {
+      id: "3601.6495.7191.2780.1078.8261.3068.7244"
+      label: "15:17 Revesby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "162"
+  vehicle {
+    trip {
+      trip_id: "866M.1629.101.2.B.8.56684899"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_DEF"
+    }
+    position {
+      latitude: -33.84028
+      longitude: 151.02219
+    }
+    timestamp: 1556468954
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.AY941 Exit Loc"
+    vehicle {
+      id: "5853.4607.6362.6428.3333.3564.8927.3164"
+    }
+  }
+}
+entity {
+  id: "163"
+  vehicle {
+    trip {
+      trip_id: "87-N.1580.104.4.A.8.56602300"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_1a"
+    }
+    position {
+      latitude: -33.8862
+      longitude: 151.2051
+    }
+    timestamp: 1556516804
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NewSouthernRailway.SR1.3BER"
+    vehicle {
+      id: "5552.7854.7203.3511.6052.7810.3531.3554"
+      label: "15:27 Central Station to Macarthur Station "
+    }
+  }
+}
+entity {
+  id: "164"
+  vehicle {
+    trip {
+      trip_id: "88-M.1580.104.4.A.8.56604039"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_1d"
+    }
+    position {
+      latitude: -33.894962
+      longitude: 150.93875
+    }
+    timestamp: 1556516844
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Liverpool.Cabramatta 2 Loc"
+    vehicle {
+      id: "4819.4935.5437.8907.9769.2307.9068.2724"
+      label: "14:16 Central Station to Leppington Station "
+    }
+  }
+}
+entity {
+  id: "165"
+  vehicle {
+    trip {
+      trip_id: "89-N.1580.104.4.A.8.56602927"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_1c"
+    }
+    position {
+      latitude: -33.842976
+      longitude: 151.02612
+    }
+    timestamp: 1556516832
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.CL103 Entry Loc"
+    vehicle {
+      id: "4825.1962.6859.3747.2110.5651.1956.3335"
+      label: "14:46 Central Station to Leppington Station "
+    }
+  }
+}
+entity {
+  id: "166"
+  vehicle {
+    trip {
+      trip_id: "90-P.1580.104.4.A.8.56602771"
+      schedule_relationship: SCHEDULED
+      route_id: "BNK_1a"
+    }
+    position {
+      latitude: -33.88256
+      longitude: 151.20798
+    }
+    timestamp: 1556516846
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SY373 Loc"
+    vehicle {
+      id: "7409.2336.6056.7877.5144.3071.6919.7075"
+      label: "15:30 Central Station to Redfern Station "
+    }
+  }
+}
+entity {
+  id: "167"
+  vehicle {
+    trip {
+      trip_id: "91-R.0.0.4-19700101.A.8.0"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_2d"
+    }
+    position {
+      latitude: -34.063534
+      longitude: 150.81453
+    }
+    timestamp: 1556516249
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.Campbelltown 1 Loc"
+    vehicle {
+      id: ".1"
+      label: "00:00 Campbelltown Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "168"
+  vehicle {
+    trip {
+      trip_id: "92-K.1580.104.4.A.8.56602256"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_1a"
+    }
+    position {
+      latitude: -33.995594
+      longitude: 150.86674
+    }
+    timestamp: 1556516844
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.IN5 Loc"
+    vehicle {
+      id: "4130.2881.7879.3217.8852.3566.7559.5558"
+      label: "14:42 Central Station to Macarthur Station "
+    }
+  }
+}
+entity {
+  id: "169"
+  vehicle {
+    trip {
+      trip_id: "93-L.1580.104.4.A.8.56602867"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_2b"
+    }
+    position {
+      latitude: -33.866936
+      longitude: 151.0866
+    }
+    timestamp: 1556515898
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.Homebush 6 Loc"
+    vehicle {
+      id: "1408.2110.3859.4631.7884.3962.6423.6403"
+      label: "15:36 Homebush Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "170"
+  vehicle {
+    trip {
+      trip_id: "94-K.1580.104.36.A.8.56604812"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_1a"
+    }
+    position {
+      latitude: -33.906048
+      longitude: 151.20264
+    }
+    timestamp: 1556516797
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "NewSouthernRailway.SR2.7BER"
+    vehicle {
+      id: "4977.1185.3067.1391.4910.7942.5867.5343"
+      label: "15:21 Central Station to Revesby Station "
+    }
+  }
+}
+entity {
+  id: "171"
+  vehicle {
+    trip {
+      trip_id: "95-N.1580.104.12.A.8.56603351"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_2f"
+    }
+    position {
+      latitude: -33.954308
+      longitude: 150.80806
+    }
+    timestamp: 1556516552
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.Leppington 1 Loc"
+    vehicle {
+      id: "8109.4908.9202.3190.6175.8062.9435.9623"
+      label: "15:24 Leppington Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "172"
+  vehicle {
+    trip {
+      trip_id: "96-K.1580.104.4.A.8.56603214"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_1a"
+    }
+    position {
+      latitude: -33.87001
+      longitude: 151.20636
+    }
+    timestamp: 1556516830
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.CO221 Loc"
+    vehicle {
+      id: "3259.4125.3588.5965.8668.4702.1935.9234"
+      label: "15:42 Central Station to Macarthur Station "
+    }
+  }
+}
+entity {
+  id: "173"
+  vehicle {
+    trip {
+      trip_id: "97-M.1580.104.4.A.8.56602471"
+      schedule_relationship: SCHEDULED
+      route_id: "IWL_1c"
+    }
+    position {
+      latitude: -33.863316
+      longitude: 150.97362
+    }
+    timestamp: 1556516833
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Liverpool.S16.9 Loc"
+    vehicle {
+      id: "6465.6881.4616.1850.7649.4805.5686.1857"
+      label: "14:31 Central Station to Leppington Station "
+    }
+  }
+}
+entity {
+  id: "174"
+  vehicle {
+    trip {
+      trip_id: "99-N.1580.104.12.A.8.56603861"
+      schedule_relationship: SCHEDULED
+      route_id: "APS_2a"
+    }
+    position {
+      latitude: -33.9524
+      longitude: 151.01462
+    }
+    timestamp: 1556516662
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "EastHills.Revesby 3 Loc"
+    vehicle {
+      id: "5540.6987.5933.6481.5953.3737.6404.4428"
+      label: "16:02 Revesby Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "175"
+  vehicle {
+    trip {
+      trip_id: "C459.1580.104.4.H.8.56805883"
+      schedule_relationship: SCHEDULED
+      route_id: "SCO_1a"
+    }
+    position {
+      latitude: -33.966805
+      longitude: 151.08621
+    }
+    timestamp: 1556516830
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hurstville.SM956/1005LOC"
+    vehicle {
+      id: "3045.8612.1798.1969.9696.3309.9657.1521"
+      label: "15:24 Central Station to Kiama Station "
+    }
+  }
+}
+entity {
+  id: "176"
+  vehicle {
+    trip {
+      trip_id: "C461.1580.104.36.H.8.56805906"
+      schedule_relationship: SCHEDULED
+      route_id: "SCO_1a"
+    }
+    position {
+      latitude: -33.883354
+      longitude: 151.20576
+    }
+    timestamp: 1556515869
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Sydney 5 Loc"
+    vehicle {
+      id: "3643.4776.5973.9680.7789.1414.6099.8864"
+      label: "15:54 Central Station to Wollongong Station "
+    }
+  }
+}
+entity {
+  id: "177"
+  vehicle {
+    trip {
+      trip_id: "H564.1580.104.68.V.8.56603419"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_REV"
+    }
+    position {
+      latitude: -33.89416
+      longitude: 151.15927
+    }
+    timestamp: 1556516832
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Ashfield.M2.96 Loc"
+    vehicle {
+      id: "6002.6993.1183.2941.1510.7143.7302.5245"
+      label: "15:35 Central Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "178"
+  vehicle {
+    trip {
+      trip_id: "H566.1580.104.60.V.8.56601930"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_REV"
+    }
+    position {
+      latitude: -33.863937
+      longitude: 151.06631
+    }
+    timestamp: 1556516790
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Lidcombe.328/309 Loc"
+    vehicle {
+      id: "4256.7805.1681.4866.9890.7199.6972.2468"
+      label: "15:47 Central Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "179"
+  vehicle {
+    trip {
+      trip_id: "HM25.1580.104.4.I.1.56603034"
+      schedule_relationship: SCHEDULED
+      route_id: "RTTA_DEF"
+    }
+    position {
+      latitude: -33.87716
+      longitude: 151.104
+    }
+    timestamp: 1556516847
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Ashfield.Burwood 2 Loc"
+    vehicle {
+      id: "6055"
+    }
+  }
+}
+entity {
+  id: "180"
+  vehicle {
+    trip {
+      trip_id: "L1CY.1580.104.76.S.4.56806126"
+      schedule_relationship: SCHEDULED
+      route_id: "OLY_1b"
+    }
+    position {
+      latitude: -33.86428
+      longitude: 151.05133
+    }
+    timestamp: 1556516786
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Lidcombe.ST450/441 Loc"
+    vehicle {
+      id: "5217.4796.1347.6697"
+      label: "15:42 Olympic Park Station to Lidcombe Station "
+    }
+  }
+}
+entity {
+  id: "181"
+  vehicle {
+    trip {
+      trip_id: "L2CR.1580.104.76.S.4.56805990"
+      schedule_relationship: SCHEDULED
+      route_id: "OLY_2b"
+    }
+    position {
+      latitude: -33.854618
+      longitude: 151.06522
+    }
+    timestamp: 1556516840
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Lidcombe.ST9.91/816 Loc"
+    vehicle {
+      id: "9852.5399.8124.8207"
+      label: "15:44 Lidcombe Station to Olympic Park Station "
+    }
+  }
+}
+entity {
+  id: "182"
+  vehicle {
+    trip {
+      trip_id: "N152.1580.104.4.V.8.56605058"
+      schedule_relationship: SCHEDULED
+      route_id: "CCN_2a"
+    }
+    position {
+      latitude: -33.8724
+      longitude: 151.09564
+    }
+    timestamp: 1556516826
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.ST106/119 Loc"
+    vehicle {
+      id: "5175.1160.5477.6646.3603.2375.3689.6198"
+      label: "13:24 Newcastle Interchange Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "183"
+  vehicle {
+    trip {
+      trip_id: "N155.1580.104.4.V.8.56603957"
+      schedule_relationship: SCHEDULED
+      route_id: "CCN_1a"
+    }
+    position {
+      latitude: -33.431282
+      longitude: 151.3344
+    }
+    timestamp: 1556516085
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.N49.5 Exit Loc"
+    vehicle {
+      id: "9753.5786.3471.6386.5562.5115.6236.6300"
+      label: "14:15 Central Station to Newcastle Interchange Station "
+    }
+  }
+}
+entity {
+  id: "184"
+  vehicle {
+    trip {
+      trip_id: "N158.1580.104.60.V.8.56604543"
+      schedule_relationship: SCHEDULED
+      route_id: "CCN_2a"
+    }
+    position {
+      latitude: -33.485687
+      longitude: 151.32344
+    }
+    timestamp: 1556516769
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.Woy Woy 1 Loc"
+    vehicle {
+      id: "7945.1313.3529.8397.7486.5663.6090.3246"
+      label: "14:20 Newcastle Interchange Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "185"
+  vehicle {
+    trip {
+      trip_id: "N159.1580.104.4.V.8.56602290"
+      schedule_relationship: SCHEDULED
+      route_id: "CCN_1a"
+    }
+    position {
+      latitude: -33.73788
+      longitude: 151.07257
+    }
+    timestamp: 1556516745
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Strathfield.Pennant Hills 2 Loc"
+    vehicle {
+      id: "3516.9154.9788.8646.1805.2578.3406.6735"
+      label: "15:15 Central Station to Newcastle Interchange Station "
+    }
+  }
+}
+entity {
+  id: "186"
+  vehicle {
+    trip {
+      trip_id: "N167.1580.104.4.V.8.56601939"
+      schedule_relationship: SCHEDULED
+      route_id: "CCN_1c"
+    }
+    position {
+      latitude: -33.883587
+      longitude: 151.20604
+    }
+    timestamp: 1556516353
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Sydney 8 Loc"
+    vehicle {
+      id: "9854.5478.1195.5199.7713.3872.3019.7703"
+      label: "16:35 Central Station to Newcastle Interchange Station "
+    }
+  }
+}
+entity {
+  id: "187"
+  vehicle {
+    trip {
+      trip_id: "N261.1580.104.4.V.8.56604794"
+      schedule_relationship: SCHEDULED
+      route_id: "CCN_1c"
+    }
+    position {
+      latitude: -33.88345
+      longitude: 151.20589
+    }
+    timestamp: 1556513543
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Sydney 6 Loc"
+    vehicle {
+      id: "9270.9036.4585.2731.3128.5867.9998.7770"
+      label: "16:05 Central Station to Wyong Station "
+    }
+  }
+}
+entity {
+  id: "188"
+  vehicle {
+    trip {
+      trip_id: "NT31.1580.104.108.X.7.56602099"
+      schedule_relationship: SCHEDULED
+      route_id: "CTY_NC1a"
+    }
+    position {
+      latitude: -33.487133
+      longitude: 151.26167
+    }
+    timestamp: 1556516841
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Hornsby.N40.9 Loc"
+    vehicle {
+      id: "3767.4525.9953.8420.9939.4614.3166"
+      label: "14:41 Central Station to Brisbane Station "
+    }
+  }
+}
+entity {
+  id: "189"
+  vehicle {
+    trip {
+      trip_id: "NT36.1580.104.124.X.7.56603352"
+      schedule_relationship: SCHEDULED
+      route_id: "CTY_NC2"
+    }
+    position {
+      latitude: -33.88767
+      longitude: 151.1265
+    }
+    timestamp: 1556516835
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Ashfield.ST46 Loc"
+    vehicle {
+      id: "6360.1463.9926.4802.2752.9905.9388"
+      label: "05:15 Grafton Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "190"
+  vehicle {
+    trip {
+      trip_id: "SN51.1580.104.124.N.2.56601731"
+      schedule_relationship: SCHEDULED
+      route_id: "SHL_1e"
+    }
+    position {
+      latitude: -34.07616
+      longitude: 150.78574
+    }
+    timestamp: 1556513908
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.GFD Dn Ctn Exit Loc"
+    vehicle {
+      id: "8350.8809"
+      label: "14:50 Campbelltown Station to Moss Vale Station "
+    }
+  }
+}
+entity {
+  id: "191"
+  vehicle {
+    trip {
+      trip_id: "SN53.1580.104.124.N.2.56603551"
+      schedule_relationship: SCHEDULED
+      route_id: "SHL_1e"
+    }
+    position {
+      latitude: -34.06392
+      longitude: 150.814
+    }
+    timestamp: 1556515470
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.Campbelltown 4 Loc"
+    vehicle {
+      id: "4130.4786"
+      label: "15:50 Campbelltown Station to Moss Vale Station "
+    }
+  }
+}
+entity {
+  id: "192"
+  vehicle {
+    trip {
+      trip_id: "SN59.1580.104.4.N.4.56600931"
+      schedule_relationship: SCHEDULED
+      route_id: "SHL_1d"
+    }
+    position {
+      latitude: -33.88323
+      longitude: 151.20552
+    }
+    timestamp: 1556515734
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Sydney 2 Loc"
+    vehicle {
+      id: "9043.3143.2422.6055"
+      label: "16:00 Central Station to Moss Vale Station "
+    }
+  }
+}
+entity {
+  id: "193"
+  vehicle {
+    trip {
+      trip_id: "SP34.1580.104.124.P.3.56603473"
+      schedule_relationship: SCHEDULED
+      route_id: "CTY_S2c"
+    }
+    position {
+      latitude: -33.961926
+      longitude: 150.9847
+    }
+    timestamp: 1556516791
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "EastHills.East Hills 2 Loc"
+    vehicle {
+      id: "6792.7611.2336"
+      label: "12:00 Canberra Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "194"
+  vehicle {
+    trip {
+      trip_id: "W543.1580.104.4.V.4.56605479"
+      schedule_relationship: SCHEDULED
+      route_id: "BMT_1"
+    }
+    position {
+      latitude: -33.58371
+      longitude: 150.2581
+    }
+    timestamp: 1556509659
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.MVURBT Exit Loc"
+    vehicle {
+      id: "9935.3123.4527.7222"
+      label: "11:20 Central Station to Mount Victoria Station "
+    }
+  }
+}
+entity {
+  id: "195"
+  vehicle {
+    trip {
+      trip_id: "W554.1580.104.4.V.8.56602306"
+      schedule_relationship: SCHEDULED
+      route_id: "BMT_2"
+    }
+    position {
+      latitude: -33.89692
+      longitude: 151.18504
+    }
+    timestamp: 1556516837
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SY518 Entry Loc"
+    vehicle {
+      id: "5794.2173.4130.9537.1818.1725.7230.9726"
+      label: "13:02 Lithgow Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "196"
+  vehicle {
+    trip {
+      trip_id: "W555.1580.104.4.V.4.56603030"
+      schedule_relationship: SCHEDULED
+      route_id: "BMT_1"
+    }
+    position {
+      latitude: -33.71492
+      longitude: 150.50578
+    }
+    timestamp: 1556516686
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.Linden 2 Loc"
+    vehicle {
+      id: "4952.8057.6275.5768"
+      label: "14:18 Central Station to Lithgow Station "
+    }
+  }
+}
+entity {
+  id: "197"
+  vehicle {
+    trip {
+      trip_id: "W556.1580.104.4.V.4.56604241"
+      schedule_relationship: SCHEDULED
+      route_id: "BMT_2"
+    }
+    position {
+      latitude: -33.773964
+      longitude: 150.93097
+    }
+    timestamp: 1556516844
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "BLACKTOWN.BN_20B"
+    vehicle {
+      id: "6936.1435.8286.1276"
+      label: "13:30 Lithgow Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "198"
+  vehicle {
+    trip {
+      trip_id: "W557.1580.104.12.V.4.56961430"
+      schedule_relationship: SCHEDULED
+      route_id: "BMT_1"
+    }
+    position {
+      latitude: -33.77811
+      longitude: 150.63306
+    }
+    timestamp: 1556516822
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.PH40.3 Loc"
+    vehicle {
+      id: "2753.3826.3675.1849"
+      label: "14:48 Central Station to Katoomba Station "
+    }
+  }
+}
+entity {
+  id: "199"
+  vehicle {
+    trip {
+      trip_id: "W558.1580.104.4.V.4.56783549"
+      schedule_relationship: SCHEDULED
+      route_id: "BMT_2"
+    }
+    position {
+      latitude: -33.77569
+      longitude: 150.62163
+    }
+    timestamp: 1556516817
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.PH40.8 Loc"
+    vehicle {
+      id: "7090.7477.5169.6848"
+      label: "15:30 Springwood Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "200"
+  vehicle {
+    trip {
+      trip_id: "W559.1580.104.12.V.8.56603146"
+      schedule_relationship: SCHEDULED
+      route_id: "BMT_1"
+    }
+    position {
+      latitude: -33.815224
+      longitude: 150.99753
+    }
+    timestamp: 1556516817
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Granville.WS14.9 Loc"
+    vehicle {
+      id: "4909.5332.3136.1232.1991.5407.9787.9365"
+      label: "15:18 Central Station to Lithgow Station "
+    }
+  }
+}
+entity {
+  id: "201"
+  vehicle {
+    trip {
+      trip_id: "W560.1580.104.4.V.4.56603798"
+      schedule_relationship: SCHEDULED
+      route_id: "BMT_2"
+    }
+    position {
+      latitude: -33.735447
+      longitude: 150.48206
+    }
+    timestamp: 1556516797
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.Woodford 1 Loc"
+    vehicle {
+      id: "7974.8552.4223.1360"
+      label: "14:58 Mount Victoria Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "202"
+  vehicle {
+    trip {
+      trip_id: "W561.1580.104.12.V.4.56602157"
+      schedule_relationship: SCHEDULED
+      route_id: "BMT_1"
+    }
+    position {
+      latitude: -33.88345
+      longitude: 151.20592
+    }
+    timestamp: 1556515252
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.Sydney 7 Loc"
+    vehicle {
+      id: "3335.2997.3661.1758"
+      label: "15:47 Central Station to Springwood Station "
+    }
+  }
+}
+entity {
+  id: "203"
+  vehicle {
+    trip {
+      trip_id: "W564.1580.104.4.V.4.56602539"
+      schedule_relationship: SCHEDULED
+      route_id: "BMT_2"
+    }
+    position {
+      latitude: -33.7117
+      longitude: 150.31108
+    }
+    timestamp: 1556515839
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.Katoomba 1 Loc"
+    vehicle {
+      id: "8214.3509.2713.6439"
+      label: "15:29 Katoomba Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "204"
+  vehicle {
+    trip {
+      trip_id: "W566.1580.104.12.V.4.56603981"
+      schedule_relationship: SCHEDULED
+      route_id: "BMT_2"
+    }
+    position {
+      latitude: -33.5004
+      longitude: 150.2728
+    }
+    timestamp: 1556516702
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Mountains.MV85.6 Loc"
+    vehicle {
+      id: "5396.5938.6105.3029"
+      label: "15:30 Lithgow Station to Central Station "
+    }
+  }
+}
+entity {
+  id: "205"
+  vehicle {
+    trip {
+      trip_id: "NonTimetabled.18-H"
+      schedule_relationship: SCHEDULED
+    }
+    position {
+      latitude: -34.05871
+      longitude: 150.8207
+    }
+    timestamp: 1556515340
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Glenfield.CNR33.7/SLDR Loc"
+    vehicle {
+      id: "CNR33.7/SLDR Loc"
+    }
+  }
+}
+entity {
+  id: "206"
+  vehicle {
+    trip {
+      trip_id: "NonTimetabled.37--"
+      schedule_relationship: SCHEDULED
+    }
+    position {
+      latitude: -33.895462
+      longitude: 151.1901
+    }
+    timestamp: 1556488034
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydney.SY521 Loc"
+    vehicle {
+      id: "SY521 Loc"
+    }
+  }
+}
+entity {
+  id: "207"
+  vehicle {
+    trip {
+      trip_id: "NonTimetabled.T285"
+      schedule_relationship: SCHEDULED
+    }
+    position {
+      latitude: -33.914825
+      longitude: 151.15785
+    }
+    timestamp: 1556512655
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.CR713 Entry LOC"
+    vehicle {
+      id: "CR713 Entry LOC"
+    }
+  }
+}
+entity {
+  id: "208"
+  vehicle {
+    trip {
+      trip_id: "NonTimetabled.T171"
+      schedule_relationship: SCHEDULED
+    }
+    position {
+      latitude: -33.91486
+      longitude: 151.15782
+    }
+    timestamp: 1556512767
+    congestion_level: UNKNOWN_CONGESTION_LEVEL
+    stop_id: "Sydenham.CR709 Entry LOC"
+    vehicle {
+      id: "CR709 Entry LOC"
+    }
+  }
+}

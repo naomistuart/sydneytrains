@@ -1,0 +1,3 @@
+"agency_id","agency_name","agency_url","agency_timezone","agency_lang","agency_phone"
+"NSWTrains","NSW Trains","http://www.nswtrainlink.info/","Australia/Sydney","en","131500"
+"SydneyTrains","Sydney Trains","http://www.sydneytrains.info/","Australia/Sydney","en","131500"
