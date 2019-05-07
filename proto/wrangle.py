@@ -3,7 +3,7 @@ import pandas as pd
 
 #%%
 # read in shape file
-df = pd.read_excel (r'D:\personal_project\real_time_vehicle_positions\SydneyTrainsGTFS_TransitBundle_28thApr\master_routes_stops.xlsx', sheet_name="shapes")
+df = pd.read_excel (r'C:\dev\repos\sydneytrains\SydneyTrainsGTFS_TransitBundle_28thApr\master_routes_stops.xlsx', sheet_name='shapes')
 
 #%%
 # create master longlats
@@ -32,7 +32,25 @@ print(longlats)
 
 color_lookup = {'T1': '#F99D1C', 'T2': '#0098CD', 'T3': '#F37021', 'T4': '#005AA3', 'T5': '#C4258F', 'T6': '#456CAA', 'T7': '#6F818E', 'T8': '#00954C', 'T9': '#D11F2F', 'BMT': '#F99D1C', 'CCN': '#D11F2F', 'NRC': '#F6891F', 'NRW': '#F6891F', 'STH': '#F6891F', 'WST': '#F6891F', 'HUN': '#833134', 'other': '#888888', 'SCO': '#005AA3', 'SHL': '#00954C'}
 
-    
+#%%
+# Create trainlines code for Javascript
+f = open(r'C:\dev\repos\sydneytrains\app\trainpaths.js', 'w')
+f.write("map.on('load', function () {\n")
+for key, value in route_lookup.items():
+    color = color_lookup.get(value)
+    f.write("map.addLayer({\n")
+    f.write("\"id\":" + key + ",\n")
+    f.write("\n")
+    f.write("\n")
+    f.write("\n")
+    f.write("\n")
+    f.write("\n")
+    f.write("\n")
+    f.write("\n")
+
+f.write("});\n")
+f.close()
+ 
 #%%
 t4_df = df.loc[df['shape_id'] == 'ESI_1d']
 #print(t4_df)
