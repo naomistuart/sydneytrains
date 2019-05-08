@@ -71,7 +71,7 @@ for entity in feed.entity:
 
 currentTrain = 1
 
-f = open(r'D:\personal_project\real_time_vehicle_positions\app\geojson.js', 'w')
+f = open(r'C:\dev\repos\sydneytrains\app\geojson.js', 'w')
 f.write("var geojson = {\n")
 f.write("type: 'FeatureCollection',\n")
 f.write("features: [\n")
