@@ -7,7 +7,7 @@
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
-  <script src='geojson.js'></script>
+  <!-- <script src='geojson.js'></script> -->
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
   <style>
     body {
@@ -46,19 +46,41 @@
       zoom: 11
     });
 
-    // add markers to map
-    geojson.features.forEach(function (marker) {
+    currentMarkers = [];
+    refreshMap();
 
-      // create a HTML element for each feature
-      var el = document.createElement('div');
-      el.className = 'marker';
-      el.style.backgroundImage = 'url(' + marker.properties.trainline + ')'
+    function refreshMap() {
+      console.log("In refresh");
+      fetch(window.location.href + "trains").then(
+        function (response) {
+          return response.json();
+        }
+      ).then(function (jsonData) {
+        //handle json data processing here
+        // add markers to map
+        if (currentMarkers !== null) {
+          for (var i = currentMarkers.length - 1; i >= 0; i--) {
+            currentMarkers[i].remove();
+          }
+        }
+        currentMarkers = [];
+        jsonData.forEach(function (marker) {
 
-      // make a marker for each feature and add to the map
-      new mapboxgl.Marker(el)
-        .setLngLat(marker.geometry.coordinates)
-        .addTo(map);
-    });
+          // create a HTML element for each feature
+          var el = document.createElement('div');
+          el.className = 'marker';
+          el.style.backgroundImage = 'url(icons/' + marker.route + '.png)'
+
+          // make a marker for each feature and add to the map
+          newMarker = new mapboxgl.Marker(el)
+            .setLngLat([marker.longpos, marker.latpos])
+            .addTo(map);
+          currentMarkers.push(newMarker);
+        });
+      });
+    };
+
+    setInterval(refreshMap, 5000);
   </script>
   <script src='trainpaths.js'></script>
 
