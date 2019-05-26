@@ -79,6 +79,9 @@ class myHandler(BaseHTTPRequestHandler):
 			self.wfile.write(bytes(json_string.encode(encoding='utf_8')))
 			return
 
+		if self.path.startswith('/?'):
+			self.path="/index.html"
+
 		if self.path=="/":
 			self.path="/index.html"
 
@@ -127,8 +130,6 @@ try:
 	#Create a web server and define the handler to manage the
 	#incoming request
 	PORT_NUMBER = int(os.environ.get('PORT', 8080))
-	print("hello")
-	print(os.environ)
 	server = HTTPServer(('', PORT_NUMBER), myHandler)
 	print('Started httpserver on port ', PORT_NUMBER) 
 	
