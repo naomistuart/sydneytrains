@@ -14,7 +14,7 @@ refreshMap();
 
 function refreshMap() {
     console.log("In refresh");
-    fetch(window.location.href + "trains").then(
+    fetch(window.location.origin + "/trains").then(
     function (response) {
         return response.json();
     }
