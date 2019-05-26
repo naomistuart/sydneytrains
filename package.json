@@ -1,0 +1,19 @@
+{
+  "name": "sydneytrains",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testServer.py",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "watchify trainpaths.js -o bundle.js"
+  },
+  "author": "Naomi Stuart",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.2.3",
+    "chaikin-smooth": "^1.0.4",
+    "watchify": "^3.11.1"
+  }
+}
