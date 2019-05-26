@@ -126,7 +126,7 @@ class myHandler(BaseHTTPRequestHandler):
 try:
 	#Create a web server and define the handler to manage the
 	#incoming request
-	PORT_NUMBER = os.environ.get('PORT', 8080)
+	PORT_NUMBER = int(os.environ.get('PORT', 8080))
 	print("hello")
 	print(os.environ)
 	server = HTTPServer(('', PORT_NUMBER), myHandler)
