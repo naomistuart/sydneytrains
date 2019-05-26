@@ -1,5 +1,6 @@
 #!/usr/bin/python
 from http.server import BaseHTTPRequestHandler, HTTPServer
+from os import curdir, sep
 import os
 import cgi
 import google_gtfs_realtime_pb2
