@@ -1,7 +1,2 @@
-BaseHTTPRequestHandler
-HTTPServer
-curdir
-sep
-cgi
+protobuf
 requests
-json
