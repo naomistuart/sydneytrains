@@ -9,6 +9,7 @@
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
   <!-- <script src='geojson.js'></script> -->
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+  <link href='style.css' type='text/css' rel='stylesheet'>
   <style>
     body {
       margin: 0;
@@ -66,23 +67,33 @@
         currentMarkers = [];
         jsonData.forEach(function (marker) {
 
+          // create pop-up
+          var popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
+            //.setText(marker.display)
+            .setHTML('<h3 style="background-color:' + marker.color + '; color: white">' + marker.display + '</h3>' + '<h4>' + marker.numcars + ' car ' + marker.trainset + ' set' + '</h4>')
+
           // create a HTML element for each feature
           var el = document.createElement('div');
           el.className = 'marker';
           el.style.backgroundImage = 'url(icons/' + marker.route + '.png)'
 
           // make a marker for each feature and add to the map
-          newMarker = new mapboxgl.Marker(el)
+          const newMarker = new mapboxgl.Marker(el)
             .setLngLat([marker.longpos, marker.latpos])
+            .setPopup(popup)
             .addTo(map);
           currentMarkers.push(newMarker);
+
+          const markerDiv = newMarker.getElement();
+          markerDiv.addEventListener('mouseenter', () => newMarker.togglePopup());
+          markerDiv.addEventListener('mouseleave', () => newMarker.togglePopup());
         });
       });
     };
 
     setInterval(refreshMap, 5000);
   </script>
-  <script src='trainpaths.js'></script>
+  <script src='bundle.js'></script>
 
 </body>
 
